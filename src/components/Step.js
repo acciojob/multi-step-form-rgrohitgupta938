@@ -17,7 +17,7 @@ const Step = ({
   switch (step) {
     case 1:
       return (
-        <div>
+        <div id="step1">
           <input
             type="text"
             name="firstName"
@@ -41,7 +41,7 @@ const Step = ({
       );
     case 2:
       return (
-        <div>
+        <div id="step2">
           <input
             type="text"
             name="model"
@@ -66,7 +66,7 @@ const Step = ({
       );
     case 3:
       return (
-        <div>
+        <div id="step3">
           <input
             type="text"
             name="cardInfo"
